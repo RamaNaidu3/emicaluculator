@@ -1,0 +1,22 @@
+ #calc{
+display: none;
+position: relative;
+     margin-left: 250px;
+     height: auto;
+ }
+ form{
+     position: relative;
+     margin-left: 250px;
+     height: auto;
+    }
+    h4{
+        color: rgb(74, 74, 131);
+    }
+    label{
+        font-weight: bold;
+    }
+    h2{
+        background-color: blueviolet;
+        width: 238px;
+        height: 53px;
+    }
