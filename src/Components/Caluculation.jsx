@@ -14,9 +14,9 @@ const Caluculation = (props) => {
     
     return (
         <div id="calc">
-            <h2>EMI={caluculate().toFixed(2)}</h2>
-            <h2>intrest payble={(caluculate()*48-props.props.loanAmount).toFixed(2)}</h2>
-            <h2>total payble ={(caluculate()*48).toFixed(2)}</h2>
+            <h2>EMI={caluculate().toFixed(0)}</h2>
+            <h2>intrest payble={(caluculate()*48-props.props.loanAmount).toFixed(0)}</h2>
+            <h2>total payble ={(caluculate()*48).toFixed(0)}</h2>
         </div>
     )
 }
